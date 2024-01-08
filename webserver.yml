@@ -1,0 +1,5 @@
+---
+ - name: install Web server
+   apt:
+     name: "{{webserver}}"
+     state: present
